@@ -1,0 +1,49 @@
+$ git status
+On branch main
+Your branch is up to date with 'TestTest/main'.
+
+nothing to commit, working tree clean
+
+User@WIN-9S2G86UNJ5O MINGW64 ~/Desktop/TestTest (main)
+$ git branch
+  branchOne
+* main
+  master
+
+User@WIN-9S2G86UNJ5O MINGW64 ~/Desktop/TestTest (main)
+$ git log
+commit e3aa15f3d973272ccfd1621e3e64359868699908 (HEAD -> main, TestTest/main)
+Author: RomaUraz <124185097+RomaUraz@users.noreply.github.com>
+Date:   Mon May 29 19:42:34 2023 +0300
+
+    Create FirstTest
+
+    Hello
+
+commit 52a3cb77d81a57ce2478e65d5efdeaee99471cd0
+Merge: 953ccca 320ea4d
+Author: RomaUraz <rurazbakiyev@gmail.com>
+Date:   Mon May 29 19:39:20 2023 +0300
+
+    made changes to div Big
+
+commit 953ccca4b75d9bfa1a7bde4d2ee4e55dbb6f8da1
+Author: RomaUraz <rurazbakiyev@gmail.com>
+Date:   Mon May 29 19:36:24 2023 +0300
+
+    div Bigger added
+
+commit 320ea4d1bcda01a9f9999005cc255bf795992373 (TestTest/branchOne, branchOne)
+Author: RomaUraz <rurazbakiyev@gmail.com>
+
+User@WIN-9S2G86UNJ5O MINGW64 ~/Desktop/TestTest (main)
+$ git log --merges
+commit 52a3cb77d81a57ce2478e65d5efdeaee99471cd0
+Merge: 953ccca 320ea4d
+Author: RomaUraz <rurazbakiyev@gmail.com>
+Date:   Mon May 29 19:39:20 2023 +0300
+
+    made changes to div Big
+
+User@WIN-9S2G86UNJ5O MINGW64 ~/Desktop/TestTest (main)
+$
